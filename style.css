@@ -16,18 +16,15 @@
     --LightPink: hsl(321, 100%, 78%);
 }
 
-html {
-    font-size: 18px;
-}
 
 body {
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     background-color: white;
 }
 
 main {
     margin: 0 auto;
-
 }
 
 .logo-container {
@@ -54,21 +51,29 @@ main {
 }
 
 .intro {
-    text-align: center;
+    width: 55.5 rem;
+    margin: 110px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-    font-size: 2.7rem;
+    margin-top: 50px;
+    font-size: 48px;
     font-family: 'Poppins', sans-serif;
-    margin: 150px 0px 30px 80px;
     font-weight: 700;
 }
 
 .intro p {
-    width: 31.5rem;
-margin-left: 150px;
+    margin-top: 50px;
+    width: 31.6rem;
+    letter-spacing: -1px;
     font-weight: 400;
     line-height: 1.65em;
+    color: var(--VeryDarkCyan);
+    text-align: center;
 
 }
 
@@ -157,11 +162,12 @@ button:hover {
 
 .description {
     width: 100%;
-    height: 440px;
-    margin-bottom: 40px;
+    height: 800px;
+    margin-bottom: 140px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 .text-container {
     width: 600px;
@@ -196,43 +202,32 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
     margin-bottom: 140px;
-
 }
 
 h3 {
     font-size: 1.55rem;
 }
 
-
 footer {
     position: relative;
-
     background-color: var(--VeryDarkCyan);
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.bgfooter{
 
-display: block;
-position: absolute;
-width: 100%;
-top: 0;
-
-
-
-
-}
-.bgfooter img{
+.bgfooter {
+    display: block;
+    position: absolute;
     width: 100%;
-   background-color: white;
+    top: 0;
 }
 
-
-
-
+.bgfooter img {
+    width: 100%;
+    background-color: white;
+}
 
 .logocopy {
     width: 280px;
@@ -256,7 +251,6 @@ ul li {
     margin-left: 0px;
     display: inline-flex;
 }
-
 
 .location img {
     width: 14px;
@@ -299,7 +293,6 @@ ul li {
     flex-direction: column;
     margin-left: 15px;
 }
-
 
 h3 {
     font-size: 29px;
